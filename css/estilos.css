@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0; 
+ }
+
+#container,#header,#list,#main{
+    width:  2000px;
+
+}
+/**/
+/* #contenido, #header, #menu, #centro, #footer{
+    width: 900px;
+}
+#contenido{
+    height: 700px;
+    margin: 0 auto;
+}
+#header{
+    height: 150px;
+    background-color: blueviolet;
+}
+#menu{
+    height: 50px;
+    background-color: rgb(157, 255, 0);
+} */
+
+
+
+
+/**/
+
+#header{
+    margin:0 auto;
+    padding: 0 auto;
+    width: 1000px;
+    height: 25px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    /* background-color: darkmagenta; */
+  }
+
+
+  #main{
+      width: 1000px;
+      height: 1000px;
+      margin: 0 auto;/*hace caso en la posicion del principal*/
+    }
+
+
+
+  nav{
+    width: 1000px;
+    /* background-color: gray; */
+  }
+
+  nav li{
+    display: inline-block;
+
+  }
+#list{
+    width: 1000px;
+
+  }
+
+#left{
+    width: 250px;
+    height: 450px;
+    /* background-color: crimson; */
+    float: left;
+}
+#iframe{
+
+    /* background-color: hotpink; */
+    width: 500px;
+    height: 450px;
+    float: left;
+
+}
+
+#aside{
+    width: 250px;
+    height: 450px;
+    float :right;
+    /* background-color: greenyellow ; */
+}
+
+.campo
+{   
+    width: 500px;
+    height: 600px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* .conta
+{
+    margin: 0 auto;
+    width: 400px;
+    height: 700px;
+} */
+.boton
+{
+    width: 135px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
+    /* text-align: center; */
+    /* box-shadow: 3px 3px 3px black; */
+
+}
+.boton1
+{
+    width: 135px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 10px;
+    margin-left: 70px;
+    /* text-align: center; */
+    margin-top: 5px;
+}
+#select
+{
+    margin-right: 20px;
+}
+
+
+.titulo
+{
+    text-align: center;
+    /* color: black; */
+}
+.campo2
+{   
+    width: 400px;
+    height: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.texto
+{
+    text-align: center;
+}
+.boton3
+{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+#cambios
+{
+    width: 135px;
+    height: 25px;
+    padding: 0 auto;
+    margin-left: 80px;
+}
+#cambios1
+{
+    width: 135px;
+    height: 25px;
+    padding: 0 auto;
+    margin-left: 80px;
+}
+
+
+
+
+#view
+{
+    /* background-color: hotpink; */
+    margin: auto;
+}
+#d_view
+{
+    /* background-color: blue; */
+    margin: auto;
+}
+#publish
+{
+    /* background-color: coral; */
+
+}

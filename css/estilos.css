@@ -37,6 +37,7 @@
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
+    padding: 20px;
     /* background-color: darkmagenta; */
   }
 
@@ -51,20 +52,36 @@
 
   nav{
     width: 1000px;
-    /* background-color: gray; */
+
+    background-color: gray;
   }
 
   nav li{
     display: inline-block;
 
+
   }
+
+
 #list{
     width: 1000px;
+  }
+
+  #list a{
+    text-decoration: none;
+    color: black;
+    height: 15px;
+    padding: 5px  30px;
+  }
+  #list a:hover{
+      background-color: blueviolet;
 
   }
 
+
+
 #left{
-    width: 250px;
+    width: 130px;
     height: 450px;
     /* background-color: crimson; */
     float: left;
@@ -72,8 +89,7 @@
 #iframe{
 
     /* background-color: hotpink; */
-    width: 500px;
-    height: 450px;
+
     float: left;
 
 }
